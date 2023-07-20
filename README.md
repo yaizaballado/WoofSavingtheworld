@@ -1,14 +1,3 @@
-# CloneGoogle
-Clonación de Interfaz de Goole usando HTML &amp; CSS
+# WoofSavingtheworld
 
-Introducción
-
-
-¿Que construí?
-
-Se construyo una interfaz identica a la de google actualmente, la cual estuvo dividida en 3 opciones principales
-1. Sección header
-2. Sección main
-3. Sección footer
-
-Objetivos
+Creación página web para adopción de perritos
