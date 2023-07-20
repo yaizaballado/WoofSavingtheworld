@@ -1,0 +1,64 @@
+/*
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+
+*/
+
+/*Así se ponen comentarios*/
+
+
+body{
+    background-color: rgb(240, 214, 181);
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+}
+
+.banner-perro{
+    width: 100%;
+}
+
+p{
+color: darkolivegreen;
+}
+
+/*EL punto se usa para poder llamar a una clase de mi HTML e identificar un elemento*/
+.p-méxico{
+    color: rgb(116, 93, 93);
+}
+
+.main-title{
+    color: seagreen;
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*div felxible para moverse con los elementos dentro de si como texto*/
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.saludo{
+    font-family: 'DM Serif Display', serif; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    color: darkolivegreen;
+    /*Linea debajo de la ancla (o sea el menu)*/
+    text-decoration: none;
+}
+
+.frase{
+    color: seagreen;
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
