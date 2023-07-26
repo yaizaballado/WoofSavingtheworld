@@ -11,9 +11,9 @@ selector{
 
 
 body{
-    background-color: rgb(240, 214, 181);
     font-family: 'Zilla Slab', serif;
     margin: 0;
+    padding: 0%;
 }
 
 .banner-perro{
@@ -30,11 +30,14 @@ color: darkolivegreen;
 }
 
 .main-title{
-    color: seagreen;
+    color: rgba(235, 195, 143, 0.725) ;
     font-family: 'DM Serif Display', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: darkolivegreen;
+    margin-top:-2%;
+    margin-bottom: -0.3%;
 }
 /*div felxible para moverse con los elementos dentro de si como texto*/
 .menu{
@@ -44,20 +47,43 @@ color: darkolivegreen;
 }
 .saludo{
     font-family: 'DM Serif Display', serif; 
-    display: flex;
-    flex-direction: column;
+    font-size: 25px ;
     align-items: center;
+    justify-content: center;
+    display: flex;
+    color: darkolivegreen;
+    background-color: rgba(216, 167, 102, 0.725);
+    height: 36px;
 }
 
 a{
     color: darkolivegreen;
     /*Linea debajo de la ancla (o sea el menu)*/
     text-decoration: none;
+    font-size: 20px;
+    display:inline-flex;
+    justify-content:center;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: center;
 }
 
 .frase{
     color: seagreen;
     font-family: 'DM Serif Display', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.asociacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(216, 167, 102, 0.725);
+}
+
+.asociaciones a{
     display: flex;
     flex-direction: column;
     align-items: center;
