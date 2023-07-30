@@ -19,7 +19,12 @@ body{
 .banner-perro{
     width: 100%;
 }
-
+.logo-perro{
+    height: 250px;
+}
+.filosofia{
+    height: 250px;
+}
 p{
 color: darkolivegreen;
 }
@@ -36,8 +41,8 @@ color: darkolivegreen;
     flex-direction: column;
     align-items: center;
     background-color: darkolivegreen;
-    margin-top:-2%;
-    margin-bottom: -0.3%;
+    /* Modificas aquí la altura si quieres hacelo más grande /chico  (auto/100px) */
+    height: auto;
 }
 /*div felxible para moverse con los elementos dentro de si como texto*/
 .menu{
@@ -53,7 +58,7 @@ color: darkolivegreen;
     display: flex;
     color: darkolivegreen;
     background-color: rgba(216, 167, 102, 0.725);
-    height: 36px;
+    height: 60px;
 }
 
 a{
